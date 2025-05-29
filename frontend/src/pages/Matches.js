@@ -11,7 +11,7 @@ function Matches() {
     setLoading(true);
     setError(false);
 
-    fetch(`${process.env.REACT_APP_API_URL}/matches`)
+    fetch(`${process.env.REACT_APP_API_URL}/api/matches`)
       .then((res) => res.json())
       .then((data) => {
         setMatches(data);
