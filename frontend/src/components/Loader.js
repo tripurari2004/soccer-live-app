@@ -4,7 +4,7 @@ import "./Loader.css";
 export default function Loader() {
   return (
     <div className="loader-container">
-      <svg className="loader-svg" viewBox="0 0 50 50">
+      <svg className="loader" viewBox="0 0 50 50">
         <circle
           className="loader-circle"
           cx="25"
@@ -12,9 +12,8 @@ export default function Loader() {
           r="20"
           fill="none"
           strokeWidth="4"
-        />
+        ></circle>
       </svg>
-      <p>Loading matches...</p>
     </div>
   );
 }

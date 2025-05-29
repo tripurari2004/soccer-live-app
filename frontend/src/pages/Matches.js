@@ -11,7 +11,7 @@ function Matches() {
     setLoading(true);
     setError(false);
 
-    fetch("http://localhost:5000/api/matches")
+    fetch(`${process.env.REACT_APP_API_URL}/matches`)
       .then((res) => res.json())
       .then((data) => {
         setMatches(data);
@@ -37,12 +37,17 @@ function Matches() {
           <Loader />
         ) : error ? (
           <div className="no-matches">
-            <p>Failed to load matches. Please try again.</p>
-            <button className="refresh-btn" onClick={fetchMatches}>Refresh</button>
+            <p>❌ Failed to load matches. Please try again.</p>
+            <button className="refresh-btn" onClick={fetchMatches}>
+              🔄 Refresh
+            </button>
           </div>
         ) : matches.length === 0 ? (
           <div className="no-matches">
             <p>No live match currently</p>
+            <button className="refresh-btn" onClick={fetchMatches}>
+              🔄 Refresh
+            </button>
           </div>
         ) : (
           <div className="match-list">
