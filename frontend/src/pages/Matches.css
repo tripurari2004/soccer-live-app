@@ -1,0 +1,125 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.App {
+  min-height: 100vh;
+  text-align: center;
+  backdrop-filter: blur(3px);
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+
+h1 {
+  color: #f8f9fa;
+}
+
+.match-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.match-card {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  width: 380px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.match-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+.league-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.flag {
+  width: 26px;
+  height: 18px;
+  border-radius: 2px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+}
+
+.teams {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  transition: transform 0.3s;
+}
+
+.team:hover {
+  transform: scale(1.05);
+}
+
+.team img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 5px;
+}
+
+.score {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.score small {
+  display: block;
+  font-size: 13px;
+  color: #777;
+  margin-top: 5px;
+}
+
+.status {
+  margin-top: 15px;
+  color: #007bff;
+  font-weight: 600;
+  font-size: 15px;
+  opacity: 0.9;
+  transition: color 0.3s ease;
+}
+
+.status:hover {
+  color: #0056b3;
+}

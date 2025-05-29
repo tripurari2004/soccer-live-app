@@ -1,0 +1,46 @@
+.footer {
+  padding: 20px 10px;
+  background: linear-gradient(
+    135deg,
+    rgba(20, 30, 48, 0.85),
+    rgba(36, 59, 85, 0.85)
+  );
+  color: #f8f9fa;
+  font-size: 14px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  user-select: none;
+  transition: background-color 0.3s ease;
+}
+
+.footer-content p {
+  margin-top: 5px;
+}
+
+.footer a {
+  color: #61dafb;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 8px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: #21a1f1;
+}
+
+.social-links {
+  margin-top: 15px;
+}
+
+.social-links a svg {
+  font-size: 24px; /* You can adjust to 28px or more if needed */
+  vertical-align: middle;
+  transition: transform 0.3s ease;
+}
+
+.social-links a:hover svg {
+  transform: scale(1.2);
+  color: #0d8ddb;
+}
+
