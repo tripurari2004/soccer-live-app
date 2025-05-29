@@ -95,20 +95,8 @@ The frontend will run at `http://localhost:3000` and fetch data from the backend
 
 ---
 
-## 📸 Screenshots
-
-> You can add screenshots or a short demo video/gif here.
-
----
-
 ## 👨‍💻 Developer
 
 **Tripurari Kumar**  
 📧 [tripurarikumar18feb@gmail.com](mailto:tripurarikumar18feb@gmail.com)  
-🔗 [GitHub](https://github.com/tripurari2004) | [LinkedIn](https://linkedin.com/in/yourprofile)
-
----
-
-## 📜 License
-
-This project is for educational and personal use only. Please follow API usage terms provided by [API-SPORTS](https://www.api-football.com/).
+🔗 [GitHub](https://github.com/tripurari2004) | [LinkedIn](https://www.linkedin.com/in/tripurari-kumar-439132207)
