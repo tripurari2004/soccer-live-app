@@ -5,6 +5,12 @@ A full-stack web application that shows **live soccer match updates** using the 
 
 ---
 
+## 🌐 Website
+
+👉 [Visit Live App](https://soccer-live-app.vercel.app)
+
+---
+
 ## 🔧 Tech Stack
 
 ### Frontend
